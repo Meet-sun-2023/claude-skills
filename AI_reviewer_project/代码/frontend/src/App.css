@@ -1,0 +1,42 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  background: #fff;
+  padding: 0 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.logo span {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1890ff;
+}
+
+.query-component {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.document-manager {
+  min-height: 600px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .logo span {
+    display: none;
+  }
+  
+  .ant-layout-content {
+    margin: 10px !important;
+    padding: 10px !important;
+  }
+  
+  .query-component,
+  .document-manager {
+    margin-bottom: 20px;
+  }
+}
