@@ -1,0 +1,26 @@
+## 📱 {sn} {status_icon}
+
+| 项目 | 值 |
+|------|-----|
+| 型号 | {model} ({vendor}) |
+| MAC | {mac} |
+| IP | {ip} |
+| 首次入网 | {first_online} |
+| 运行时间 | {uptime} |
+
+**性能**
+| CPU | 内存 | 温度 |
+|-----|------|------|
+| {cpu}% | {memory}% | {temp}°C{temp_warn} |
+
+{if wifi_list}
+**WiFi**
+| SSID | 频段 | 加密 |
+|------|------|------|
+{wifi_list}{endif}
+
+{if lan_conn}
+**LAN** | {lan_conn}{endif}
+
+{if up_power}
+**光功率** | 上行: {up_power} dBm / 下行: {down_power} dBm{endif}

@@ -1,0 +1,15 @@
+## 📊 设备对比
+
+| 项目 | {sn1} | {sn2} | {sn3} |
+|------|--------|--------|--------|
+| 状态 | {status1} | {status2} | {status3} |
+| 型号 | {model1} | {model2} | {model3} |
+| IP | {ip1} | {ip2} | {ip3} |
+| 首次入网 | {first_online1} | {first_online2} | {first_online3} |
+| 运行时间 | {uptime1} | {uptime2} | {uptime3} |
+| CPU | {cpu1}% | {cpu2}% | {cpu3}% |
+| 内存 | {memory1}% | {memory2}% | {memory3}% |
+| 温度 | {temp1}°C{temp_warn1} | {temp2}°C{temp_warn2} | {temp3}°C{temp_warn3} |
+| LAN | {lan1} | {lan2} | {lan3} |
+| 光功率上行 | {up_power1} | {up_power2} | {up_power3} |
+| 光功率下行 | {down_power1} | {down_power2} | {down_power3} |
